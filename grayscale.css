@@ -33,11 +33,11 @@ a {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  color: #42dca3
+  color: #A34F05
 }
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c
+  color: #0558A3
 }
 #mainNav {
   font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -188,15 +188,15 @@ a:focus, a:hover {
   border-radius: 0
 }
 .btn-default {
-  color: #42dca3;
-  border: 1px solid #42dca3;
+  color: #A34F05;
+  border: 1px solid #A34F05;
   background-color: transparent
 }
 .btn-default:focus, .btn-default:hover {
   color: #000;
-  border: 1px solid #42dca3;
+  border: 1px solid #A34F05;
   outline: 0;
-  background-color: #42dca3
+  background-color: #A34F05
 }
 ul.banner-social-buttons {
   margin-top: 0
