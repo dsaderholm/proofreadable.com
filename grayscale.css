@@ -239,7 +239,9 @@ img::selection {
 img::-moz-selection {
   background: 0 0
 }
-
 label {
+  color: #4E687F;
+}
+.modal-title {
   color: #4E687F;
 }
