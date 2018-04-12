@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
-  background-color: #790CE8
+  background-color: #A8C3DB
 }
 html {
   width: 100%;
@@ -33,18 +33,18 @@ a {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  color: #A34F05
+  color: #1993FF
 }
 a:focus, a:hover {
   text-decoration: none;
-  color: #790CE8
+  color: #0087FF
 }
 #mainNav {
   font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, .3);
-  background-color: #790CE8
+  background-color: #A8C3DB
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
@@ -87,7 +87,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background: #790CE8
+    background: #A8C3DB
   }
   #mainNav .nav-link.active {
     outline: 0;
@@ -105,7 +105,7 @@ a:focus, a:hover {
   text-align: center;
   color: #fff;
   background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: #790CE8;
+  background-color: #A8C3DB;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -159,7 +159,7 @@ a:focus, a:hover {
 .download-section {
   color: #fff;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: #790CE8;
+  background-color: #A8C3DB;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
