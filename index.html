@@ -94,31 +94,76 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to leave us a comment on the
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
-              on Start Bootstrap to give some feedback about this theme!</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <span class="network-name">Google+</span>
-                </a>
-              </li>
-            </ul>
+            <h2>Contact Me!/h2>
+            <button class="btn btn-primary btn-bg sr-button" data-target="#contactform" data-toggle="modal" type="button">Open Contact Form</button> <!-- Modal -->
           </div>
         </div>
       </div>
     </section>
+      
+      
+               <div aria-hidden="true" aria-labelledby="contactformTitle" class="modal fade" id="contactform" role="dialog" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="contactformLongLabel">Contact Us</h5>
+                           <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+                        </div>
+
+
+                        <div class="modal-body">
+                           <div class="container">
+                              <div class="custom-form">
+                                 <form accept-charset="UTF-8" action="https://usebasin.com/f/9ca052986d96" enctype="multipart/form-data" id="basinform" method="post" name="basinform">
+                                    <div class="form-group">
+                                       <label for="name">Name <small class="text-muted">(required)</small></label> <input class="form-control" id="name" name="name" placeholder="Name..." required="" type="text">
+                                    </div>
+
+
+                                    <div class="form-group">
+                                       <label for="email">Email address <small class="text-muted">(required)</small></label> <input class="form-control" id="email" name="email" placeholder="Valid email address..." required="" type="email">
+                                    </div>
+
+
+                                    <div class="form-group">
+                                       <label for="message-subject">Message Subject <small class="text-muted">(required)</small></label> <select class="form-control" id="message-subject" name="message-subject" required="">
+                                          <option disabled selected>
+                                             Choose...
+                                          </option>
+
+                                          <option>
+                                             Information
+                                          </option>
+
+                                          <option>
+                                             Feedback
+                                          </option>
+
+                                          <option>
+                                             Other
+                                          </option>
+                                       </select>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                       <label for="message">Message <small class="text-muted">(required)</small></label> 
+
+                                       <textarea class="form-control" id="message" minlength="3" name="message" placeholder="Type your message here..." required="" rows="4"></textarea>
+                                    </div>
+                                    <br>
+
+                                    <div class="form-group">
+                                      <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+                                    </div>
+                                    <br>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="modal-footer">
+                           <button class="btn btn-secondary" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-primary" type="submit">Submit</button>
+</form>
 
 
     <!-- Footer -->
@@ -137,7 +182,6 @@
     <!-- Plugin JavaScript -->
     <script src="jquery_002.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script src="js"></script>
 
     <script src="grayscale.js"></script>
