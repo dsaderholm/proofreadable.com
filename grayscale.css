@@ -252,8 +252,11 @@ label {
   text-align: center;
 }
 .g-recaptcha {
-  align: center;
+  text-align: center;
 }
-.nav nav-pills mb-3 {
-  align: center;
+.nav-link {
+  text-align: center;
+}
+.nav-link active{
+  text-align: center;
 }
