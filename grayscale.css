@@ -262,3 +262,9 @@ label {
     padding: 1em;
     position:relative;
 }
+input:required {
+    box-shadow:none;
+}
+input:invalid {
+    box-shadow:none;
+}
