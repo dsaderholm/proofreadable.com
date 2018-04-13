@@ -255,17 +255,11 @@ label {
   text-align: center;
 }
 .nav-link {
-    height:20px; 
-    width:100px; 
-    margin: -20px -50px; 
     position:relative;
     top:50%; 
     left:50%;
 }
-.nav-link active {
-    height:20px; 
-    width:100px; 
-    margin: -20px -50px; 
+.nav-link active { 
     position:relative;
     top:50%; 
     left:50%;
