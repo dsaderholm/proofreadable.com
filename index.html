@@ -166,7 +166,7 @@
                         </div>
 
                         <div class="modal-footer">
-                           <button class="btn btn-secondary" data-dismiss="modal" type="button">Cancel</button><button class="btn btn-danger" type="reset">Reset</button><button class="btn btn-primary" type="submit">Submit</button>
+                           <button class="btn btn-secondary" data-dismiss="modal" type="button">Cancel</button><button class="btn btn-danger" type="reset" id="reset">Reset</button><button class="btn btn-primary" type="submit">Submit</button>
 </form>
                             </section>
 
@@ -218,6 +218,11 @@
       $("#pills-website-tab").click(function() {
       $('#url').val('http://');
       $('#other-description').val('');
+      });
+    </script>
+    <script type="text/javascript"> 
+      $("#reset").click(function() {
+      $('#url').val('http://');
       });
     </script>
 
