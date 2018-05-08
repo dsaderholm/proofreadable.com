@@ -32,7 +32,7 @@
 
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#request">Request</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -73,12 +73,12 @@
   <!-- Request Section -->
 
 
-  <section class="content-section text-center" id="request">
+  <section class="content-section text-center" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h1>Request</h1>
-            <h4>Click the button below to open a form where you can request a proofreading.</h4>
+          <h1>Contact</h1>
+            <h4>Click the button below to open a form to contact me.</h4>
           <button class="btn btn-primary btn-bg" data-target="#contactform" data-toggle="modal" type="button">Request A Proofreading</button> <!-- Modal -->
         </div>
       </div>
@@ -131,21 +131,26 @@
 
 
                   <div class="form-group">
-                    <label>Select what I will be proofreading</label>
+                    <label>Select a subject for your message</label>
 
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                       <li class="nav-item">
-                        <a aria-controls="pills-website" aria-selected="true" class="nav-link" data-toggle="pill" href="#pills-website" id="pills-website-tab" role="tab">Website</a>
+                        <a aria-controls="pills-website" aria-selected="true" class="nav-link" data-toggle="pill" href="#pills-website" id="pills-website-tab" role="tab">Request a Proofreading for a Website</a>
                       </li>
 
 
                       <li class="nav-item">
-                        <a aria-controls="pills-document" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-document" id="pills-document-tab" role="tab">Document</a>
+                        <a aria-controls="pills-document" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-document" id="pills-document-tab" role="tab">Request a Proofreading for a Document</a>
                       </li>
 
 
                       <li class="nav-item">
-                        <a aria-controls="pills-other" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-other" id="pills-other-tab" role="tab">Other</a>
+                        <a aria-controls="pills-other" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-other" id="pills-other-tab" role="tab">Request a Proofreading for Other</a>
+                      </li>
+
+
+                      <li class="nav-item">
+                        <a aria-controls="pills-question" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-question" id="pills-question-tab" role="tab">Question</a>
                       </li>
                     </ul>
 
@@ -170,6 +175,15 @@
                           <label for="other-description">Please type a detailed description of what I will be proofreading</label>
 
                           <textarea class="form-control" id="other-description" minlength="10" name="other-description" placeholder="Type your description here..." rows="4"></textarea>
+                        </div>
+                      </div>
+
+
+                          <div aria-labelledby="pills-question-tab" class="tab-pane fade" id="pills-question" role="tabpanel">
+                        <div class="form-group">
+                          <label for="question-text">Please type a your question</label>
+
+                          <textarea class="form-control" id="question-text" minlength="10" name="question-text" placeholder="Type your question here..." rows="3"></textarea>
                         </div>
                       </div>
                     </div>
@@ -242,15 +256,24 @@
       $("#pills-document-tab").click(function() {
       $('#url').val('');
       $('#other-description').val('');
+      $('#question-text').val('');
       });
   </script>
   <script type="text/javascript">
       $("#pills-other-tab").click(function() {
       $('#url').val('');
+      $('#question-text').val('');
       });
   </script>
   <script type="text/javascript">
       $("#pills-website-tab").click(function() {
+      $('#url').val('http://');
+      $('#other-description').val('');
+      $('#question-text').val('');
+      });
+  </script>
+  <script type="text/javascript">
+      $("#pills-question-tab").click(function() {
       $('#url').val('http://');
       $('#other-description').val('');
       });
