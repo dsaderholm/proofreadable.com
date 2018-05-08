@@ -132,9 +132,24 @@
 
                   <div class="form-group">
                     <label>Select a subject for your message</label>
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                    </div>
                     <br>
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <label>Request a proofreading for:</label>
                       <li class="nav-item">
                         <a aria-controls="pills-website" aria-selected="true" class="nav-link" data-toggle="pill" href="#pills-website" id="pills-website-tab" role="tab">Website</a>
                       </li>
@@ -255,27 +270,29 @@
   <script type="text/javascript">
       $("#pills-document-tab").click(function() {
       $('#url').val('');
-      $('#other-description').val('');
-      $('#question-text').val('');
+      $('#other-description').val('Not Filled Out');
+      $('#question-text').val('Not Filled Out');
       });
   </script>
   <script type="text/javascript">
       $("#pills-other-tab").click(function() {
       $('#url').val('');
-      $('#question-text').val('');
+      $('#question-text').val('Not Filled Out');
+      $('#other-description').val('');
       });
   </script>
   <script type="text/javascript">
       $("#pills-website-tab").click(function() {
       $('#url').val('http://');
-      $('#other-description').val('');
-      $('#question-text').val('');
+      $('#other-description').val('Not Filled Out');
+      $('#question-text').val('Not Filled Out');
       });
   </script>
   <script type="text/javascript">
       $("#pills-question-tab").click(function() {
       $('#url').val('http://');
-      $('#other-description').val('');
+      $('#other-description').val('Not Filled Out');
+      $('#question-text').val('');
       });
   </script>
   <script type="text/javascript">
