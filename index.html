@@ -134,73 +134,62 @@
                     <label>Select a subject for your message</label>
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Question</a>
+                            <a class="nav-link active" id="pills-question-tab" data-toggle="pill" href="#pills-question" role="tab" aria-controls="pills-question" aria-selected="false">Question</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Request</a>
+                            <a class="nav-link" id="pills-request-tab" data-toggle="pill" href="#pills-request" role="tab" aria-controls="pills-request" aria-selected="false">Request</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">General Contact</a>
+                            <a class="nav-link" id="pills-general_contact-tab" data-toggle="pill" href="#pills-general_contact" role="tab" aria-controls="pills-general_contact" aria-selected="false">General Contact</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                        <div class="tab-pane fade show active" id="pills-question" role="tabpanel" aria-labelledby="pills-question-tab">...</div>
+                        <div class="tab-pane fade" id="pills-request" role="tabpanel" aria-labelledby="pills-request-tab"><ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item">
+                            <a aria-controls="pills-website" aria-selected="true" class="nav-link" data-toggle="pill" href="#pills-website" id="pills-website-tab" role="tab">Website</a>
+                          </li>
+
+
+                          <li class="nav-item">
+                            <a aria-controls="pills-document" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-document" id="pills-document-tab" role="tab">Document</a>
+                          </li>
+
+
+                          <li class="nav-item">
+                            <a aria-controls="pills-other" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-other" id="pills-other-tab" role="tab">Other</a>
+                          </li>
+                          <br>
+                          <li class="nav-item">
+                            <a aria-controls="pills-question" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-question" id="pills-question-tab" role="tab">Question</a>
+                          </li>
+                        </ul>
+
+
+                        <div class="tab-content" id="pills-tabContent">
+                          <div aria-labelledby="pills-website-tab" class="tab-pane fade" id="pills-website" role="tabpanel">
+                            <div class="form-group">
+                              <label for="url">Please enter the url of the website I will be proofreading</label> <input class="form-control" id="url" name="url" placeholder="Type your website url including http:// here..." type="url">
+                            </div>
+                          </div>
+
+
+                          <div aria-labelledby="pills-document-tab" class="tab-pane fade" id="pills-document" role="tabpanel">
+                            <div class="form-group">
+                              <label for="fileupload">Please upload an example of what I will be proofreading. The file must be smaller than 1 gigabyte, and must be a pdf, odt, or docx file.</label><input class="form-control-file" id="fileupload" name="document" type="file">
+                            </div>
+                          </div>
+
+
+                          <div aria-labelledby="pills-other-tab" class="tab-pane fade" id="pills-other" role="tabpanel">
+                            <div class="form-group">
+                              <label for="other-description">Please type a detailed description of what I will be proofreading</label>
+
+                              <textarea class="form-control" id="other-description" minlength="10" name="other-description" placeholder="Type your description here..." rows="4"></textarea>
+                            </div>
+                          </div></div>
+                        <div class="tab-pane fade" id="pills-general_contact" role="tabpanel" aria-labelledby="pills-general_contact-tab">...</div>
                     </div>
-                    <br>
-                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                      <li class="nav-item">
-                        <a aria-controls="pills-website" aria-selected="true" class="nav-link" data-toggle="pill" href="#pills-website" id="pills-website-tab" role="tab">Website</a>
-                      </li>
-
-
-                      <li class="nav-item">
-                        <a aria-controls="pills-document" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-document" id="pills-document-tab" role="tab">Document</a>
-                      </li>
-
-
-                      <li class="nav-item">
-                        <a aria-controls="pills-other" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-other" id="pills-other-tab" role="tab">Other</a>
-                      </li>
-                      <br>
-                      <li class="nav-item">
-                        <a aria-controls="pills-question" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-question" id="pills-question-tab" role="tab">Question</a>
-                      </li>
-                    </ul>
-
-
-                    <div class="tab-content" id="pills-tabContent">
-                      <div aria-labelledby="pills-website-tab" class="tab-pane fade" id="pills-website" role="tabpanel">
-                        <div class="form-group">
-                          <label for="url">Please enter the url of the website I will be proofreading</label> <input class="form-control" id="url" name="url" placeholder="Type your website url including http:// here..." type="url">
-                        </div>
-                      </div>
-
-
-                      <div aria-labelledby="pills-document-tab" class="tab-pane fade" id="pills-document" role="tabpanel">
-                        <div class="form-group">
-                          <label for="fileupload">Please upload an example of what I will be proofreading. The file must be smaller than 1 gigabyte, and must be a pdf, odt, or docx file.</label><input class="form-control-file" id="fileupload" name="document" type="file">
-                        </div>
-                      </div>
-
-
-                      <div aria-labelledby="pills-other-tab" class="tab-pane fade" id="pills-other" role="tabpanel">
-                        <div class="form-group">
-                          <label for="other-description">Please type a detailed description of what I will be proofreading</label>
-
-                          <textarea class="form-control" id="other-description" minlength="10" name="other-description" placeholder="Type your description here..." rows="4"></textarea>
-                        </div>
-                      </div>
-
-
-                          <div aria-labelledby="pills-question-tab" class="tab-pane fade" id="pills-question" role="tabpanel">
-                        <div class="form-group">
-                          <label for="question-text">Please type a your question</label>
-
-                          <textarea class="form-control" id="question-text" minlength="10" name="question-text" placeholder="Type your question here..." rows="3"></textarea>
-                        </div>
-                      </div>
                     </div>
 
 
