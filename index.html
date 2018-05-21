@@ -144,7 +144,7 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade" id="pills-question" role="tabpanel" aria-labelledby="pills-question-tab">...</div>
+                        <div class="tab-pane fade" id="pills-question" role="tabpanel" aria-labelledby="pills-question-tab"><textarea class="form-control" id="question-text" minlength="3" name="question-text" placeholder="Type your question here..." rows="2"></textarea></div>
                         <div class="tab-pane fade" id="pills-request" role="tabpanel" aria-labelledby="pills-request-tab"> <label>Select what I will be proofreading</label> <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                           <li class="nav-item">
                             <a aria-controls="pills-website" aria-selected="false" class="nav-link" data-toggle="pill" href="#pills-website" id="pills-website-tab" role="tab">Website</a>
@@ -170,10 +170,9 @@
                             </div>
                           </div>
 
-
                           <div aria-labelledby="pills-document-tab" class="tab-pane fade" id="pills-document" role="tabpanel">
                             <div class="form-group">
-                              <label for="fileupload">Please upload an example of what I will be proofreading. The file must be smaller than 1 gigabyte, and must be a pdf, odt, or docx file.</label><input class="form-control-file" id="fileupload" name="document" type="file">
+                              <label for="fileupload">Please upload an example of what I will be proofreading. The file must be smaller than 1 gigabyte, and must be a .pdf, .odt, or .docx file.</label><input class="form-control-file" id="fileupload" name="document" type="file">
                             </div>
                           </div>
 
@@ -185,7 +184,7 @@
                               <textarea class="form-control" id="other-description" minlength="10" name="other-description" placeholder="Type your description here..." rows="4"></textarea>
                             </div>
                           </div></div>
-                        <div class="tab-pane fade" id="pills-general_contact" role="tabpanel" aria-labelledby="pills-general_contact-tab">...</div>
+                        <div class="tab-pane fade" id="pills-general_contact" role="tabpanel" aria-labelledby="pills-general_contact-tab"><textarea class="form-control" id="message" minlength="3" name="message" placeholder="Type your message here..." rows="3"></textarea></div>
                     </div>
                     </div>
 
@@ -257,13 +256,11 @@
       $("#pills-document-tab").click(function() {
       $('#url').val('');
       $('#other-description').val('Not Filled Out');
-      $('#question-text').val('Not Filled Out');
       });
   </script>
   <script type="text/javascript">
       $("#pills-other-tab").click(function() {
       $('#url').val('');
-      $('#question-text').val('Not Filled Out');
       $('#other-description').val('');
       });
   </script>
@@ -271,7 +268,6 @@
       $("#pills-website-tab").click(function() {
       $('#url').val('http://');
       $('#other-description').val('Not Filled Out');
-      $('#question-text').val('Not Filled Out');
       });
   </script>
   <script type="text/javascript">
