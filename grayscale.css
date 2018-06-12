@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
-  background-color: #4E687F
+  background-color: #4E687F;
 }
 html {
   width: 100%;
@@ -256,7 +256,7 @@ label {
     padding: 1em;
     position:relative;
 }
-.nav-link active { 
+.nav-link active {
     padding: 1em;
     position:relative;
 }
@@ -265,4 +265,7 @@ input:required {
 }
 input:invalid {
     box-shadow:none;
+}
+.card-body {
+    background-color: #4E687F;
 }
