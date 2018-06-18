@@ -268,6 +268,8 @@ input:invalid {
 }
 .card-body {
     background-color: #4E687F;
+    text-align: left; 
+    
 }
 .card-header {
     background-color: #1993FF;
