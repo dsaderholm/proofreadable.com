@@ -113,7 +113,7 @@ a:focus, a:hover {
   vertical-align: middle
 }
 .masthead .intro-body .brand-heading {
-  font-size: 50px
+  font-size: 30px
 }
 .masthead .intro-body .intro-text {
   font-size: 18px
@@ -268,7 +268,7 @@ input:invalid {
 }
 .card-body {
     background-color: #4E687F;
-    text-align: left; 
+    text-align: left;
     font-size: 50pd
 }
 .card-header {
