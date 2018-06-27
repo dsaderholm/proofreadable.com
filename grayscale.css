@@ -142,7 +142,7 @@ a:focus, a:hover {
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
   color: #ffffff;
-  border: 2px solid #000;
+  border: 2px solid #ffffff;
   border-radius: 100%!important;
   background: 0 0
 }
@@ -294,13 +294,13 @@ input:invalid {
 }
 
 @-webkit-keyframes slide {
-    150% { left: 0; }
+    100% { left: 0; }
 }
 
 @-moz-keyframes slide {
-    150% { left: 0; }
+    100% { left: 0; }
 }
 
 @keyframes slide {
-    150% { left: 0; }
+    100% { left: 0; }
 }
