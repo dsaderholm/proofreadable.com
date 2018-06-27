@@ -126,7 +126,7 @@ a:focus, a:hover {
     padding: 0
   }
   .masthead .intro-body .brand-heading {
-    font-size: 50px
+    font-size: 30px
   }
   .masthead .intro-body .intro-text {
     font-size: 22px
@@ -284,12 +284,12 @@ input:invalid {
 }
 #slide {
     position: absolute;
-    left: -70px;
-    -webkit-animation: slide 1s forwards;
+    left: -40px;
+    -webkit-animation: slide 2s forwards;
     -webkit-animation-delay: 5s;
-    -moz-animation: slide 1s forwards;
+    -moz-animation: slide 2s forwards;
     -moz-animation-delay: 5s;
-    animation: slide 0.5s forwards;
+    animation: slide 2s forwards;
     animation-delay: 2s;
 }
 
