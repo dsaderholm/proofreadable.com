@@ -106,7 +106,8 @@ a:focus, a:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover
+  background-size: cover;
+  background-image: url("proofreadable-logo.png");
 }
 .masthead .intro-body {
   display: table-cell;
