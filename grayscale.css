@@ -282,7 +282,6 @@ input:invalid {
 .wrapper {
     position: relative;
 }
-
 #slide {
     position: absolute;
     left: -100px;
