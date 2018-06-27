@@ -101,8 +101,8 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: #000000;
-  background-color: #FFFFFF;
+  color: #ffffff;
+  background-color: #0000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -141,7 +141,7 @@ a:focus, a:hover {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
-  color: #000;
+  color: #ffffff;
   border: 2px solid #000;
   border-radius: 100%!important;
   background: 0 0
