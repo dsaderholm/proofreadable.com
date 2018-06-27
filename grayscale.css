@@ -284,7 +284,7 @@ input:invalid {
 }
 #slide {
     position: absolute;
-    left: -150px;
+    left: -70px;
     -webkit-animation: slide 1s forwards;
     -webkit-animation-delay: 5s;
     -moz-animation: slide 1s forwards;
