@@ -106,7 +106,7 @@ a:focus, a:hover {
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: cover;
+  background-size: 100%;
   background-image: url("proofreadable-logo-3.png");
 }
 
