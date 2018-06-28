@@ -279,16 +279,64 @@ input:invalid {
 .card {
     background-color: #1993FF;
 }
-@keyframes moving {
-    from {top: 0px;}
-    to {top: 200px;}
+.movetxt{
+  animation: animationFrames linear 3s;
+  animation-iteration-count: 0;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames linear 3s;
+  -webkit-animation-iteration-count: 0;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationFrames linear 3s;
+  -moz-animation-iteration-count: 0;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationFrames linear 3s;
+  -o-animation-iteration-count: 0;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationFrames linear 3s;
+  -ms-animation-iteration-count: 0;
+  -ms-transform-origin: 50% 50%;
 }
-@-webkit-keyframes moving {
-       from {top: 0px;}
-    to {top: 200px;}
+
+@keyframes animationFrames{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,150px)  ;
+  }
 }
-#movetxt {
-    animation: moving 5s infinite;
-    -webkit-animation: moving 5s infinite;
-    position:relative;
+
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,150px)  ;
+  }
 }
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,150px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,150px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,150px)  ;
+  }
