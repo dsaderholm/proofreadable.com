@@ -96,7 +96,6 @@ a:focus, a:hover {
   }
 }
 .masthead {
-  display: table;
   width: 100%;
   height: auto;
   padding: 200px 0;
@@ -280,63 +279,3 @@ input:invalid {
     background-color: #1993FF;
 }
 .movetxt{
-  animation: animationFrames linear 3s;
-  animation-iteration-count: 0;
-  transform-origin: 50% 50%;
-  -webkit-animation: animationFrames linear 3s;
-  -webkit-animation-iteration-count: 0;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: animationFrames linear 3s;
-  -moz-animation-iteration-count: 0;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: animationFrames linear 3s;
-  -o-animation-iteration-count: 0;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: animationFrames linear 3s;
-  -ms-animation-iteration-count: 0;
-  -ms-transform-origin: 50% 50%;
-}
-
-@keyframes animationFrames{
-  0% {
-    transform:  translate(0px,0px)  ;
-  }
-  100% {
-    transform:  translate(0px,150px)  ;
-  }
-}
-
-@-moz-keyframes animationFrames{
-  0% {
-    -moz-transform:  translate(0px,0px)  ;
-  }
-  100% {
-    -moz-transform:  translate(0px,150px)  ;
-  }
-}
-
-@-webkit-keyframes animationFrames {
-  0% {
-    -webkit-transform:  translate(0px,0px)  ;
-  }
-  100% {
-    -webkit-transform:  translate(0px,150px)  ;
-  }
-}
-
-@-o-keyframes animationFrames {
-  0% {
-    -o-transform:  translate(0px,0px)  ;
-  }
-  100% {
-    -o-transform:  translate(0px,150px)  ;
-  }
-}
-
-@-ms-keyframes animationFrames {
-  0% {
-    -ms-transform:  translate(0px,0px)  ;
-  }
-  100% {
-    -ms-transform:  translate(0px,150px)  ;
-  }
