@@ -103,8 +103,8 @@ a:focus, a:hover {
   text-align: center;
   color: #ffffff;
   background-color: #0000;
-  background-size: 100% 100%;
   background-image: url("proofreadable-logo-4.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
