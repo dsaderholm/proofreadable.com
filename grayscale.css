@@ -108,6 +108,7 @@ a:focus, a:hover {
   -o-background-size: contain;
   background-size: contain;
   background-image: url("proofreadable-logo-4.png");
+  background-repeat: no-repeat;
 }
 
 .masthead .intro-body {
