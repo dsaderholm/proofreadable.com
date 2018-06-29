@@ -104,7 +104,7 @@ a:focus, a:hover {
   color: #ffffff;
   background-color: #0000;
   background-image: url("proofreadable-logo-4.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
