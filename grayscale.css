@@ -105,7 +105,7 @@ a:focus, a:hover {
   text-align: center;
   color: #ffffff;
   background-color: #0000;
-  background-image: url("proofreadable-logo-4.png");
+  background-image: url("proofreadable-splash.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -279,4 +279,3 @@ input:invalid {
 .card {
     background-color: #1993FF;
 }
-.movetxt{
