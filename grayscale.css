@@ -272,7 +272,7 @@ input:invalid {
 .card-body {
     background-color: #4E687F;
     text-align: left;
-    font-size: 50pd
+    font-size: 50px;
     color: #0000;
 }
 .card-header {
