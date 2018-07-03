@@ -41,14 +41,12 @@ a:focus, a:hover {
 #mainNav {
   font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, .3);
-  background-color: #4E687F
+  background-color: #061942
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
   color: #fff;
-  border: 1px solid #fff
 }
 #mainNav .navbar-brand {
   font-weight: 700
@@ -84,7 +82,6 @@ a:focus, a:hover {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
     background: #ffffff;
     color: #000000;
   }
