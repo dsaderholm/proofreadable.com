@@ -155,7 +155,7 @@ a:focus, a:hover {
 }
 .download-section {
   color: #fff;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: urlhttps://proofreadable.com/(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: #4E687F;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -267,7 +267,7 @@ input:invalid {
     box-shadow:none;
 }
 .card-body {
-    background-color: #4E687F;
+    background-color: #ffffff;
     text-align: left;
     font-size: 50px;
     color: #0000;
