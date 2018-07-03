@@ -85,7 +85,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background: #4E687F
+    background: #ffffff
   }
   #mainNav .nav-link.active {
     outline: 0;
@@ -298,4 +298,5 @@ input:invalid {
 }
 #about {
     background-color: #ffffff;
+    color: #000:
 }
