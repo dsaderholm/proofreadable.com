@@ -41,7 +41,7 @@ a:focus, a:hover {
 #mainNav {
   font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
-  background-color: #061942
+  background-color: #ffffff;
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
@@ -49,24 +49,24 @@ a:focus, a:hover {
   color: #fff;
 }
 #mainNav .navbar-brand {
-  font-weight: 700
+  font-weight: 700;
 }
 #mainNav a {
-  color: #fff
+  color: #fff;
 }
 #mainNav .navbar-nav .nav-item {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out
+  transition: background .3s ease-in-out;
 }
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: 0;
-  background-color: transparent
+  background-color: transparent;
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: 0;
-  background-color: transparent
+  background-color: transparent;
 }
 @media (min-width:992pxdifferent) {
   #mainNav {
@@ -77,7 +77,7 @@ a:focus, a:hover {
     transition: background .3s ease-in-out, padding-top .3s ease-in-out, padding-bottom .3s;
     letter-spacing: 1px;
     border-bottom: none;
-    background: 0 0
+    background: 0 0;
   }
   #mainNav.navbar-shrink {
     padding-top: 10px;
