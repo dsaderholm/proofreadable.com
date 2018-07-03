@@ -40,18 +40,18 @@ a:focus, a:hover {
 #mainNav {
   font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
-  background-color: #061942;
+  background-color: #ffffff;
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
-  color: #fff;
+  color: #000000;
 }
 #mainNav .navbar-brand {
   font-weight: 700;
 }
 #mainNav a {
-  color: #0000;
+  color: #000000;
 }
 #mainNav .navbar-nav .nav-item {
   -webkit-transition: background .3s ease-in-out;
@@ -67,7 +67,7 @@ a:focus, a:hover {
   outline: 0;
   background-color: transparent;
 }
-@media (min-width:992pxdifferent) {
+@media (min-width:992px different) {
   #mainNav {
     padding-top: 20px;
     padding-bottom: 20px;
