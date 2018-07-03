@@ -70,7 +70,7 @@ a:focus, a:hover {
   outline: 0;
   background-color: transparent
 }
-@media (min-width:992px) {
+@media (min-width:992pxdifferent) {
   #mainNav {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -85,7 +85,8 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background: #ffffff
+    background: #ffffff;
+    color: #000000;
   }
   #mainNav .nav-link.active {
     outline: 0;
@@ -272,6 +273,7 @@ input:invalid {
     background-color: #4E687F;
     text-align: left;
     font-size: 50pd
+    color: #0000;
 }
 .card-header {
     background-color: #ffffff;
@@ -298,5 +300,4 @@ input:invalid {
 }
 #about {
     background-color: #ffffff;
-    color: #000:
 }
