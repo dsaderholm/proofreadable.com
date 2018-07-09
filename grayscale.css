@@ -304,3 +304,6 @@ input:invalid {
     background-color: #c73504;
     color: #ffffff;
 }
+ul {
+    text-align: left;
+}
