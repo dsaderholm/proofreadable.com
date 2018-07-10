@@ -117,7 +117,7 @@ a:focus, a:hover {
 }
 @media (min-width:768px) {
   .masthead {
-    height: 100%;
+    height: auto;
     padding: 0
   }
   .masthead .intro-body .brand-heading {
