@@ -5,6 +5,15 @@ body {
   height: 100%;
   background-color: #215460;
 }
+@media screen and (min-width: 1366px) {
+    body {
+        font-family: Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        position: relative;
+        width: 100%;
+        height: 30%;
+        background-color: #215460;
+    }
+}
 html {
   width: 100%;
   height: 100%
@@ -95,8 +104,8 @@ a:focus, a:hover {
 .masthead {
   display: table;
   width: 100%;
-  height: auto;
-  padding: 200px 0;
+  height: 100%;
+  padding: 50px 0;
   text-align: center;
   color: #ffffff;
   background-color: #0000;
@@ -117,7 +126,7 @@ a:focus, a:hover {
 }
 @media (min-width:768px) {
   .masthead {
-    height: auto;
+    height: 100%;
     padding: 0
   }
   .masthead .intro-body .brand-heading {
