@@ -326,3 +326,6 @@ ul {
 .copyright {
     color: #FFFF;
 }
+.no-border {
+    border: none;
+}
