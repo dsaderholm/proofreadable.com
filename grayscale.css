@@ -255,6 +255,7 @@ label {
     border-radius: 300px;
     border: 1px solid #ced4da;
     margin-right: 5px;
+    margin-bottom: 5px;
     text-align: center;
 }
 .nav-link active {
