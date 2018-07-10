@@ -307,7 +307,7 @@ ul {
 .mobile-breaks {
     display: none;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1440px) {
     .mobile-breaks{display: block;}
     .regular-breaks {display: none;}
 }
