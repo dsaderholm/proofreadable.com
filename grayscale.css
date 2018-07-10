@@ -305,3 +305,10 @@ input:invalid {
 ul {
     text-align: left;
 }
+.mobile-breaks {
+    display: none;
+}
+@media only screen and (max-device-width: 480px) {
+    .mobile-breaks{display: block;}
+    .regular-breaks {display: none;}
+}
