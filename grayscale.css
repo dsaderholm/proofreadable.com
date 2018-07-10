@@ -249,12 +249,23 @@ label {
   text-align: center;
 }
 .nav-link {
-    padding: 1em;
+    padding: 0.5em;
     position:relative;
+    color: #495057;
+    border-radius: 300px;
+    border: 1px solid #ced4da;
+    margin-right: 5px;
+    text-align: center;
 }
 .nav-link active {
-    padding: 1em;
+    padding: 0.5em;
     position:relative;
+    background-color: #c73504;
+    color: #ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ffffff;
+    background-color: #c73504;
 }
 input:required {
     box-shadow:none;
