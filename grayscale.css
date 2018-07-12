@@ -329,3 +329,6 @@ ul {
 .no-border {
     border: none;
 }
+.smaller {
+    font-size: 15px;
+}
