@@ -307,7 +307,7 @@ input:invalid {
     background-color: #ffffff;
 }
 #contact {
-    color: #ffffff;
+    color: #000000;
 }
 #services {
     background-color: #c73504;
@@ -324,7 +324,7 @@ ul {
     .regular-breaks {display: none;}
 }
 .copyright {
-    color: #FFFF;
+    color: #000000;
 }
 .no-border {
     border: none;
