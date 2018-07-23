@@ -40,18 +40,18 @@ a:focus, a:hover {
 #mainNav {
   font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
-  background-color: #ffffff;
+  background-color: #215460;
 }
 #mainNav .navbar-toggler {
   font-size: 14px;
   padding: 11px;
-  color: #000000;
+  color: #ffffff;
 }
 #mainNav .navbar-brand {
   font-weight: 700;
 }
 #mainNav a {
-  color: #000000;
+  color: #ffffff;
 }
 #mainNav .navbar-nav .nav-item {
   -webkit-transition: background .3s ease-in-out;
