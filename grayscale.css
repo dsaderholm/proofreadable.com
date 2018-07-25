@@ -332,3 +332,6 @@ ul {
 .smaller {
     font-size: 20px;
 }
+.fullscreen-bg__video {
+    margin: 4% auto;
+}
