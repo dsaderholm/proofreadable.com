@@ -335,3 +335,7 @@ ul {
 .fullscreen-bg__video {
     margin: 6% auto;
 }
+.icon {
+    width: 80px;
+    height: 80px;
+}
