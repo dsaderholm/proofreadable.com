@@ -251,6 +251,21 @@
       </div>
     </div>
   </section>
+  <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="success" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="success">Contact</h5>
+      </div>
+      <div class="modal-body">
+        Your message has been sent! You may now click on "close."
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Footer -->
 
 
@@ -278,6 +293,9 @@
   </script>
   <script type="text/javascript">
       $('#contactform').modal({backdrop: 'static', keyboard: false, show: false})
+  </script>
+  <script type="text/javascript">
+      $('#success').modal({backdrop: 'static', keyboard: false, show: false})
   </script>
   <script type="text/javascript">
       $(document).ready(function() {
