@@ -341,4 +341,6 @@ ul {
 }
 .yes {
     text-align: left;
+    width: auto;
+    height: 8%;
 }
