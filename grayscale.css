@@ -339,8 +339,8 @@ ul {
     width: 90px;
     height: 90px;
 }
-.yes {
-    text-align: left;
-    width: auto;
-    height: 8%;
+.imgcent {
+    text-align: left !important;
+    width: auto !important;
+    height: 8% !important;
 }
