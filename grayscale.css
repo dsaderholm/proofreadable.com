@@ -340,7 +340,7 @@ ul {
     height: 90px;
 }
 .imgcent {
-    clear: left;
+    float: left;
     width: auto !important;
     height: 8% !important;
 }
