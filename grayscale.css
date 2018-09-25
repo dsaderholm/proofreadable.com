@@ -341,7 +341,7 @@ ul {
 }
 .imgcent {
     float: left;
-    height: 3%;
+    height: 5px;
     width: auto !important;
     margin-right: 5%;
 }
