@@ -343,4 +343,5 @@ ul {
     float: right;
     height: 200px;
     width: auto !important;
+    padding-bottom: 9px;
 }
