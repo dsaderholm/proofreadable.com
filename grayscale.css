@@ -340,8 +340,9 @@ ul {
     height: 90px;
 }
 .imgcent {
-    float: left;
-    height: 5px;
+    float: inline-end;
+    height: 200px;
     width: auto !important;
-    margin-right: 5%;
+    margin-right: 0%;
+    padding-right: 50px;
 }
