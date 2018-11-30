@@ -313,6 +313,10 @@ input:invalid {
     background-color: #c73504;
     color: #ffffff;
 }
+#certifications {
+    background-color: #215460;
+    color: #ffffff;
+}
 ul {
     text-align: left;
 }
